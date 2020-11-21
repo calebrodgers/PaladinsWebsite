@@ -7,7 +7,6 @@ body {
 #home-large {
     height: 100vh;
 
-
     position: relative;
     background: linear-gradient(-45deg, #d7ca17, #f3e205, #0088c9, #0d6e99);
     background-size: 400% 400%;
@@ -75,12 +74,6 @@ body {
     margin-right: auto;
 
     -webkit-filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.25));
-    transition: 1s;
-}
-
-#home-large-logo:hover {
-    transform: scale(1.05);
-    transition: .5s;
 }
 
 #home-large-text {
@@ -142,41 +135,45 @@ body {
 
 .home-quote-1 {
     font-family: 'Fjalla One', sans-serif;
-    font-size: 8vh;
+    font-size: 8em;
     text-align: center;
 
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
 
     color: #0088c9;
     background-color: #fff;
+
+    text-shadow: 0 0 20px rgba(0, 0, 0, .25);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .25);
 }
 
 .home-quote-2 {
     font-family: 'Fjalla One', sans-serif;
-    font-size: 8vh;
+    font-size: 8em;
     text-align: center;
 
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
 
     color: #fff;
     background-color: #f3e205;
+
+    text-shadow: 0 0 20px rgba(0, 0, 0, .25);
 }
 
 .home-quote-3 {
     font-family: 'Fjalla One', sans-serif;
-    font-size: 4vh;
+    font-size: 4em;
     text-align: center;
 
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 40px;
 
     color: #fff;
     background-color: #0088c9;
+
+    text-shadow: 0 0 20px rgba(0, 0, 0, .25);
 }
 
-.home-quote-alt {
+.home-alt {
     opacity: 0.75;
 }
 
@@ -187,6 +184,8 @@ body {
     background-color: #fff;
     margin: 0;
     padding: 0;
+
+    margin-bottom: -8px;
 }
 
 .home-body {
@@ -198,6 +197,142 @@ body {
 
     background-color: #fff;
     color: #0088c9;
-    font-family: 'Didact Gothic', sans-serif;
-    font-size: xx-large;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+
+    text-shadow: 0 0 20px rgba(0, 0, 0, .25);
+}
+
+#home-section-header {
+    background-color: #fff;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    font-size: 6em;
+    font-family: 'Fjalla One', sans-serif;
+
+    color: #0088c9;
+
+    text-shadow: 0 0 20px rgba(0, 0, 0, .25);
+    margin: 0;
+    padding: 20px;
+}
+
+#home-values {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    grid-template-areas:
+        "home-value-gp"
+        "home-value-coop";
+
+    background-color: #fff;
+}
+
+@media (min-width: 1080px) {
+    #home-values {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+
+        grid-template-areas:
+            "home-value-gp home-value-coop";
+    }
+}
+
+#home-value-gp {
+    grid-area: home-value-gp;
+
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2em;
+
+    text-align: center;
+
+    margin: .8em;
+    padding: .8em;
+    background-color: #0088c9;
+
+    color: #fff;
+
+    text-shadow: 0 0 20px rgba(0, 0, 0, .25);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .25);
+}
+
+#home-value-gp:hover {
+    transform: scale(1.02);
+}
+
+#home-value-coop {
+    grid-area: home-value-coop;
+
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2em;
+
+    text-align: center;
+
+    margin: .8em;
+    padding: .8em;
+    background-color: #f3e205;
+
+    text-shadow: 0 0 20px rgba(0, 0, 0, .25);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .25);
+}
+
+#home-value-coop:hover {
+    transform: scale(1.02);
+}
+
+.home-value-header {
+    font-size: 2em;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+#home-sponsors {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: -8px;
+    margin-bottom: 2em;
+
+    box-shadow: 0 0 20px rgba(0, 0, 0, .25);
+
+    width: 50%;
+}
+
+#home-sponsor-section {
+    background-color: #fff;
+    margin-bottom: -40px;
+}
+
+#home-sponsors:hover {
+    transform: scale(1.02);
+}
+
+#home-social {
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 2em;
+    background-color: #fff;
+}
+
+.home-social-link {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 3.5em;
+    padding: 0 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: #0088c9;
+    opacity: 0.75;
+
+    transition: 0.3s;
+
+    text-shadow: 0 0 20px rgba(0, 0, 0, .25);
+}
+
+#home-social a:hover {
+    transform: scale(1.05);
+    opacity: 1;
 }
