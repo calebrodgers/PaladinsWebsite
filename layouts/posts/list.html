@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+{{ partial "head.html" . }}
+
+<body>
+   {{ partial "header.html" . }}
+
+    <header>
+        <h2 class="posts-list-page-header">Posts from The Paladins</h2>
+    </header>
+
+    <div class="posts-list">
+        {{range .Pages}}
+        {{ partial "post-list-entry.html" . }}
+        {{end}}
+    </div>
+
+<a href="/" class="nav-link">Home</a>
+
+    {{ partial "footer.html" . }}
+
+</body>
+
+</html>

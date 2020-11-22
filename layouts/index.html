@@ -22,7 +22,7 @@ We are determined to become outstanding ambassadors for FIRST and true gracious 
     <section class="home-quote-2"><p data-aos="fade-left" style="margin: 0;">CONNECT<span class="home-alt"> / </span>INSPIRE<span class="home-alt"> / </span>ENGINEER</span></p></section>
     <img class="home-image" src="/img/global/bg_img_2.jpg" />
     <section class="home-quote-3"><p data-aos="fade-right" style="margin: 0;">"To transform our culture by creating a world where science and technology are celebrated and where young people dream of becoming science and technology leaders."<br /><span class="home-alt"> - Dean Kamen, Founder of <em>FIRST<sup>&reg;</em></sup></span></p></section>
-    <h2 id="home-section-header">OUR VALUES</h2>
+    <h2 class="home-section-header">OUR VALUES</h2>
     <section id="home-values">
         <div id="home-value-gp" data-aos="flip-right" data-aos-duration="1000">
             <h2 class="home-value-header">Gracious Proffesionalism<br />&#128588; &#128588; WOO!</h2>
@@ -36,20 +36,28 @@ In the long run, Gracious Professionalism is part of pursuing a meaningful life.
 Coopertition involves learning from teammates. It is teaching teammates. It is learning from Mentors. And it is managing and being managed. Coopertition means competing always, but assisting and enabling others when you can.</span>
         </div>
     </section>
+
+    <!-- <section id="home-post-list">
+        <h2 class="home-section-header">THE LATEST FROM THE PALADINS</h2>
+        <div class="home-posts-grid">
+        {{range first 3 (where .Site.RegularPages "Section" "posts")}}
+            {{ partial "post-list-entry-home.html" . }}
+        {{end}}
+        </div>
+        <a href="/posts" class="nav-link">Read More of our Posts!</a>
+    </section> -->
     
     <section id="home-sponsor-section">
-        <h2 id="home-section-header">OUR WONDERFUL SPONSORS</h2>
+        <h2 class="home-section-header">OUR WONDERFUL SPONSORS</h2>
         <img id="home-sponsors" data-aos="zoom-out" data-aos-duration="1000" src="/img/global/sponsors.png" />
     </section>
 
     <section id="home-social">
-        <h2 id="home-section-header">WE'RE A VERY SOCIAL TEAM</h2>
+        <h2 class="home-section-header">WE'RE A VERY SOCIAL TEAM</h2>
         <a href="https://www.facebook.com/Paladins2020" target="_blank" class="home-social-link"><i class="fab fa-facebook-square"></i> Facebook</a>
         <a href="https://twitter.com/StPaladins" target="_blank" class="home-social-link"><i class="fab fa-twitter-square"></i> Twitter</a>
         <a href="https://github.com/Paladins-of-St-Pauls" target="_blank" class="home-social-link"><i class="fab fa-github-square"></i> Github</a>
     </section>
 
-    <footer>
-        {{ now.Format "2006"}} The Paladins of St Paul's | FTC Team #18003 | Website by <a href="https://calebrodgers.com" target="_blank">calebrodgers.com</a>
-    </footer>
+    {{ partial "footer.html" . }}
 </body>

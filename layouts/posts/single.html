@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+{{ partial "head.html" . }}
+
+<body>
+   {{ partial "header.html" . }}
+
+    <article id="single-content-section">
+        <header id="post-header">
+            <img src="{{ $.Param "author-image"}}"
+            alt="" id="post-author-image">
+            <div class="post-details">
+                <h2 class="post-title">{{.Title}}</h2>
+                <span class="post-details-alt">Written by</span> <b>{{ $.Param "author"}}</b> <span class="post-details-alt">on</span> <b>{{dateFormat "Monday, 2 January 2006" .Date}}</b></p>
+                <!-- <p><i class="fas fa-clock"></i>&nbspApprox. {{.ReadingTime}}min read</p> -->
+            </div>
+        </header>
+
+        <div class="post-content">
+            {{.Content}}
+        </div>
+    </article>
+
+    <a href="/posts" class="nav-link">Read More of our Posts!</a>
+
+    {{ partial "footer.html" . }}
+
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+<a href="{{.Permalink}}" class="post-list-post" data-aos="zoom-in" data-aos-duration="1000">
+        <img src="{{ $.Param "author-image"}}"
+            alt="" class="post-list-image">
+        <p class="post-list-title">
+            {{ .Title }}
+        </p>
+        <p class="post-list-details"> <span class="post-details-alt">By</span> {{ $.Param "author" }} <span class="post-details-alt">on</span> {{ dateFormat "2 Jan 06" .Date }}</p>
+    </a>
