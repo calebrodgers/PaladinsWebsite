@@ -1,5 +1,5 @@
 ---
-title: "COVID Killed Our Competition (And the Silver Lining)" # Post title. URL of post is filename.
+title: "COVID Killed Our Competition (And the Silver Lining!)" # Post title. URL of post is filename.
 date: 2020-11-11T14:18:45+10:30 # Date and time of posting
 draft: false # Set this to false to publish the post
 author: Sir Brad # Author's display name. i.e. Sir Somebody
