@@ -7,7 +7,7 @@ author-image: /img/team/sir-brad.png # Relative link to authors image
 ---
 
 # The bad news 😥
-On Wednesday the 18th of November, there was an announcement that everyone living in South Australia had to go into lockdown for 6 days as of midnight. Our whole team was gutted because everyone was super excited to host the South Australian competition, but our dreams got crushed by the COVID outbreak that happened.
+On Wednesday the 18th of November, there was an announcement that everyone living in South Australia had to go into lockdown for six days as of midnight. Our whole team was gutted because everyone was super excited to host the South Australian competition, but our dreams got crushed by the COVID outbreak that happened.
 
 # The silver lining 🥳
-After our Competition was killed by the COVID outbreak, we were delighted to see that there is a silver lining that has appeared through this horrible time. We automatically qualified for the nationals! This news turned all teams members frowns, upside down! Now our team is pumped up and are excited to be going into nationals and putting our best foot forward!
+After our Competition was killed by the COVID outbreak, we were delighted to see that there is a silver lining that has appeared through this horrible time. We automatically qualified for the nationals! This news turned all teams members frowns, upside down! Now our team is pumped up and are excited to be going into Nationals and putting our best foot forward!
