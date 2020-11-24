@@ -1,5 +1,5 @@
 ---
-title: "A home online for the Paladins" # Post title. URL of post is filename.
+title: "A Home Online For The Paladins" # Post title. URL of post is filename.
 date: 2020-11-23T14:18:45+10:30 # Date and time of posting
 draft: false # Set this to false to publish the post
 author: Sir Caleb # Author's display name. i.e. Sir Somebody
