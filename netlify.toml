@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://paladins18003.netlify.app/*"
+  to = "https://paladins18003.org.au/:splat"
+  status = 301
+  force = true
