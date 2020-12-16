@@ -1,0 +1,7 @@
+User-agent: *
+
+{{range .Pages}}{{if .Params.hidden}}
+Disallow: {{.RelPermalink}}
+{{end}}{{end}}
+
+Sitemap: https://paladins18003.org.au/sitemap.xml

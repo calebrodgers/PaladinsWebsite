@@ -1,3 +1,9 @@
 baseURL = "https://paladins18003.org.au/"
-languageCode = "en-us"
+languageCode = "en-au"
 title = "The Paladins of St Paul's | FTC 18003"
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
+enableRobotsTXT = true
+
+[markup.goldmark.renderer]
+unsafe= true
