@@ -12,7 +12,7 @@ Yesterday marked the end of a virtual robotics programming competition that span
 
 > **_The Paladins made it all the way to the knockouts, where we proceeded to win every match that we were put in, securing us a place in the grand final where we were put up against the brilliant team HRS3 from Hills Road Sixth Form College in London. However, it was our precise robot control and bold strategy that saw us win 36-8, earning us the title of world champions!_**
 
-Recognition must be given to everyone in the team who contributed to the project, to the volunteers at Student Robotics, who made the competition fun, and were always online to help with any questions (and deal with our "fun-posting" shenanigans)! A special mention, however, must be given to our incredible mentor Shaun, who put so much in and always inspired us with his brilliant ideas 😎.
+Recognition must be given to everyone on the team who contributed to the project, to our fantastic coach, Mrs O'Malley, and to the volunteers at Student Robotics, who made the competition fun - and were always online to help with any questions (and deal with our "fun-posting" shenanigans)! A special mention, however, must be given to our incredible mentor Shaun, who put so much in and always inspired us with his brilliant ideas 😎.
 
 ## 📺 You can watch us compete in the finals below!
 
