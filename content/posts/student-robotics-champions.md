@@ -14,10 +14,10 @@ Yesterday marked the end of a virtual robotics programming competition that span
 
 Recognition must be given to everyone on the team who contributed to the project, to our fantastic coach, Mrs O'Malley, and to the volunteers at Student Robotics, who made the competition fun - and were always online to help with any questions (and deal with our "fun-posting" shenanigans)! A special mention, however, must be given to our incredible mentor Shaun, who put so much in and always inspired us with his brilliant ideas 😎.
 
-## 📺 You can watch us compete in the videos below!
+# 📺 You can watch us compete in the videos below!
 
-# The Finals: spoiler alert - we won ;)
+## The Finals: spoiler alert - we won ;)
 {{< youtube Jwk2kUp02lk >}}
 
-# Watch us through the knockouts - popcorn required.
+## Watch us through the knockouts - popcorn required.
 {{< youtube gxJM6ernMqo >}}
