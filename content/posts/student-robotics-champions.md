@@ -20,4 +20,4 @@ Recognition must be given to everyone on the team who contributed to the project
 {{< youtube Jwk2kUp02lk >}}
 
 # Watch us through the knockouts - popcorn required.
-{{< youtube gxJM6ernMqo& >}}
+{{< youtube gxJM6ernMqo >}}
